@@ -1,13 +1,15 @@
-const CustomerSection = () => {
-  const customerImages = [
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
-    "https://images.unsplash.com/photo-1494790108755-2616b612b123?w=300&h=300&fit=crop&crop=face",
-    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
-    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
-    "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
-    "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=300&fit=crop&crop=face",
-  ];
+import customer1 from "../assets/customer1.jpg";
+import customer2 from "../assets/customer2.jpg";
+import customer3 from "../assets/customer3.jpg";
 
+const customerImages = [
+  customer1,
+  customer2,
+  customer3,
+  // Add more as needed
+];
+
+const CustomerSection = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -17,7 +19,7 @@ const CustomerSection = () => {
             Customer <span className="text-brand-green">Vibes</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            See how our community rocks their DRIPZONE pieces. Tag us @dripzone for a chance to be featured!
+            See how our community rocks their pieces. Tag us @ayoolawears for a chance to be featured!
           </p>
         </div>
 

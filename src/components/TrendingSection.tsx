@@ -1,15 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import productsGrid from "@/assets/products-grid.jpg";
-
+import productsGrid1 from "@/assets/products-grid-1.png";
+import productsGrid2 from "@/assets/products-grid-2.png";
 const TrendingSection = () => {
   const products = [
-    { name: "Street Tee", price: "₦45,000", category: "T-Shirts" },
-    { name: "Yellow Hoodie", price: "₦85,000", category: "Hoodies" },
-    { name: "Urban Cap", price: "₦35,000", category: "Accessories" },
-    { name: "Denim Jacket", price: "₦120,000", category: "Jackets" },
-    { name: "Cargo Pants", price: "₦90,000", category: "Bottoms" },
-    { name: "Fresh Kicks", price: "₦150,000", category: "Footwear" },
+    { name: "Street Tee", price: "₦45,000", category: "T-Shirts", image: productsGrid },
+    { name: "Yellow Hoodie", price: "₦85,000", category: "Hoodies", image: productsGrid1 },
+    { name: "Urban Cap", price: "₦35,000", category: "Accessories", image: productsGrid2 },
+    { name: "Denim Jacket", price: "₦120,000", category: "Jackets", image: productsGrid1},
+    { name: "Cargo Pants", price: "₦90,000", category: "Bottoms", image: productsGrid2 },
+    { name: "Fresh Kicks", price: "₦150,000", category: "Footwear" ,image: productsGrid},
   ];
 
   return (
@@ -33,7 +34,7 @@ const TrendingSection = () => {
               <CardContent className="p-0">
                 <div className="relative overflow-hidden rounded-t-lg">
                   <img 
-                    src={productsGrid} 
+                    src={product.image} 
                     alt={product.name}
                     className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                   />

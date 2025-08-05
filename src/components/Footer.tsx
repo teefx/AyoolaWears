@@ -31,7 +31,7 @@ const Footer = () => {
             {/* Brand Column */}
             <div className="space-y-4">
               <div className="text-2xl font-bold">
-                DRIP<span className="text-brand-yellow">ZONE</span>
+                AYOOLA<span className="text-brand-yellow">WEARS</span>
               </div>
               <p className="text-green-100">
                 Your go-to destination for the freshest streetwear and urban fashion. 

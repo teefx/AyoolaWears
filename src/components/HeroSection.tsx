@@ -25,7 +25,7 @@ const HeroSection = () => {
                 Shop Collection
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-brand-dark hover:bg-brand-dark hover:text-white">
-                View Lookbook
+                Message Us Via WhatsApp
               </Button>
             </div>
           </div>

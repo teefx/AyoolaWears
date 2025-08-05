@@ -38,6 +38,13 @@ export default {
 					dark: 'hsl(var(--brand-dark))',
 					light: 'hsl(var(--brand-light))'
 				},
+// 				brand: {
+//   yellow: '#CC5500',
+//   green: 'hsl(var(--brand-green))',
+//   dark: 'hsl(var(--brand-dark))',
+//   light: 'hsl(var(--brand-light))'
+// },
+// ...existing code...
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
