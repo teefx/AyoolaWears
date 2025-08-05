@@ -4,12 +4,12 @@ import productsGrid from "@/assets/products-grid.jpg";
 
 const TrendingSection = () => {
   const products = [
-    { name: "Street Tee", price: "$45", category: "T-Shirts" },
-    { name: "Yellow Hoodie", price: "$85", category: "Hoodies" },
-    { name: "Urban Cap", price: "$35", category: "Accessories" },
-    { name: "Denim Jacket", price: "$120", category: "Jackets" },
-    { name: "Cargo Pants", price: "$90", category: "Bottoms" },
-    { name: "Fresh Kicks", price: "$150", category: "Footwear" },
+    { name: "Street Tee", price: "₦45,000", category: "T-Shirts" },
+    { name: "Yellow Hoodie", price: "₦85,000", category: "Hoodies" },
+    { name: "Urban Cap", price: "₦35,000", category: "Accessories" },
+    { name: "Denim Jacket", price: "₦120,000", category: "Jackets" },
+    { name: "Cargo Pants", price: "₦90,000", category: "Bottoms" },
+    { name: "Fresh Kicks", price: "₦150,000", category: "Footwear" },
   ];
 
   return (
